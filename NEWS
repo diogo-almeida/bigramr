@@ -1,0 +1,10 @@
+* Version 0.3 (6/12/2013)
+- Added SUBTLEXus corpus to the package
+- Augmented SUBTLEXus corpus with unigram and bigram frequencies from James & Mewhort 2004 database
+
+* Version 0.2 (1/12/2013)
+- Functions to look up unigram frequencies on the James & Mewhort 2004 database
+- Function ChunNGrams supersedes String2Bigram
+
+* Version 0.1 (30/11/2013)
+- Functions to look up bigram frequencies on the James & Mewhort 2004 database

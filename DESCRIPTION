@@ -1,0 +1,31 @@
+Package: bigramr
+Type: Package
+Title: Tools to calculate unigram and bigram frequency counts of strings.
+Version: 0.3
+Date: 2013-10-31
+Author: Diogo Almeida <dalazal@gmail.com>
+Maintainer: Diogo Almeida <dalazal@gmail.com>
+Description: This package provides tools to help calculate the Sum and Mean
+    Unigram Frequencies and the Sum and Mean Bigram Frequencies of character
+    strings (e.g., words, pseudowords) based on five different case-sensitive
+    unigram and bigram frequency English-language corpora, collected and
+    published by Jones & Mewhort (2004). The functions will also work with
+    user-supplied frequency corpora, and therefore the functionality of the
+    package can be immediately extended to include other frequency corpora of
+    English and other languages.
+License: GPL2
+LazyData: true
+Collate:
+    'Bigram2Frequency.R'
+    'bigramr-package.R'
+    'CalculateBigramStats.R'
+    'ConvertBigrams2Frequencies.R'
+    'ConvertStrings2Bigrams.R'
+    'String2Bigram.R'
+    'SumAndMeanBigrams.R'
+    'CalculateUnigramStats.R'
+    'ChunkNGrams.r'
+    'ConvertStrings2Unigrams.R'
+    'ConvertUnigrams2Frequencies.R'
+    'SumAndMeanUnigrams.R'
+    'Unigram2Frequency.R'
